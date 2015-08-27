@@ -102,7 +102,7 @@ body,
 .docs-menu__heading {
     text-transform: uppercase;
     font-size: 1em;
-    color: #666;
+    color: #000;
 }
 
 .docs-menu__list {
@@ -111,7 +111,8 @@ body,
 
 .docs-menu__item-link {
     display: block;
-    color: #aaa;
+    color: #111;
+    padding-left: 10px;
 }
 
 .docs-menu__item-link:hover {
@@ -121,6 +122,7 @@ body,
 
 .docs-menu__item-link--active {
     color: #555;
+    padding-left: 5px;
 }
 
 
@@ -196,3 +198,61 @@ body,
 }
 
 
+
+.logo
+{
+  font-family: Garamond;
+  font-size: 40px; 
+  margin-bottom: 20px;
+}
+
+
+.horizontalLine, hr {
+      content: "";
+          height: 1px;
+              background: -moz-linear-gradient(left, #E5E5E5 0%, #000000 50%, #E5E5E5 100%);
+                  background: -webkit-linear-gradient(left, #E5E5E5 0%, #000000 50%, #E5E5E5 100%);
+                      background: -o-linear-gradient(left, #E5E5E5 0%, #000000 50%, #E5E5E5 100%);
+                          background: -ms-linear-gradient(left, #E5E5E5 0%, #000000 50%, #E5E5E5 100%);
+                              background: linear-gradient(left, #E5E5E5 0%, #000000 50%, #E5E5E5 100%);
+                                  width: 90%;
+                                      margin: auto;
+                                          display: block;
+                                              opacity: .95;
+                                                  margin-top: 10px;
+                                                      margin-bottom: 10px;
+                                                          overflow: visible;
+                                                        }
+
+
+.horizontalFooter {
+      margin-top: 80px;
+          margin-bottom: 80px;
+        }
+
+.horizontalFooter {
+      margin-top: 80px;
+          margin-bottom: 80px;
+        }
+
+        .textcenter
+        {
+              text-align: center;
+                  margin: auto;
+                      display: block;
+                          top: 2px;
+        }
+
+.horizontalLine span {
+              font-size: 30px;
+                  color: #000000;
+                      line-height: 0px;
+                          background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 20%, #ffffff 100%);
+                              background: -webkit-linear-gradient(left, #FFF 0%, #FFF 20%, #FFF 100%);
+                                  background: -o-linear-gradient(left, #ffffff 0%, #ffffff 20%, #ffffff 100%);
+                                      background: -ms-linear-gradient(left, #ffffff 0%, #ffffff 20%, #ffffff 100%);
+                                          background: linear-gradient(left, #ffffff 0%, #ffffff 20%, #ffffff 100%);
+                                              height: 0px;
+                                                  min-width: 90%;
+                                                      margin-left: 5%;
+                                                    }
