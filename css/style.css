@@ -1,3 +1,10 @@
+@font-face {
+font-family: 'Architects Daughter';
+src: url('ArchitectsDaughter.ttf') format('truetype'); 
+font-weight: normal;
+font-style: normal;
+}
+
 /* Overrides the width set by Twitter Bootstrap */
 .container {
     width: 100%;
@@ -69,7 +76,7 @@ body,
     height: 100%;
     overflow-y: auto;
     background: #E5E5E5;
-    padding: 20px 40px;
+    padding: 20px 0px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -101,8 +108,10 @@ body,
 
 .docs-menu__heading {
     text-transform: uppercase;
-    font-size: 1em;
-    color: #000;
+    font-size: 18px;
+	padding:5% 15px;
+	margin: 0px;
+	
 }
 
 .docs-menu__list {
@@ -179,7 +188,9 @@ body,
 
 /* Larger screens */
 @media(min-width: 768px) {
-
+	.colorSec{
+		text-align: right;
+	}
     .docs-transition.docs-menu {
         visibility: visible;
         -webkit-transform: translate3d(0, 0, 0);
@@ -192,6 +203,9 @@ body,
 
 /* Small screens */
 @media(max-width: 768px) {
+	.colorSec{
+		text-align: center;
+	}
     .open-menu, .open-menu:hover {
         display: block;
     }
@@ -201,9 +215,11 @@ body,
 
 .logo
 {
-  font-family: Garamond;
+font-family: 'Architects Daughter', cursive;
   font-size: 40px; 
   margin-bottom: 20px;
+  width: 90%;
+  margin-left: 5%;
 }
 
 
@@ -256,3 +272,98 @@ body,
                                                   min-width: 90%;
                                                       margin-left: 5%;
                                                     }
+													
+
+
+.colorSec h1
+{
+font-family: 'Architects Daughter', cursive;	font-size: 50px;
+	display: inline-block;
+}
+
+.colorSec .glyphicons
+{
+	display: block;
+	width: 100%;
+	font-size: 250px;
+}
+
+.colorSec a
+{
+	color: inherit;
+	font-size: 20px;
+}
+													
+.colorSec
+{
+	min-height: 200px;
+	    padding: 20px;
+		font-family: 'Architects Daughter', cursive;
+}
+
+.blackPart
+{
+	background-color: black;
+	color:white;
+}
+
+.yellowPart
+{
+	background-color: #ffcc00;
+	color:white;
+}
+
+.greenPart{
+	background-color: #4cd964;
+	color:white;
+}
+
+.purplePart{
+	background-color: #5856d6;
+	color:white;
+}
+
+.orangePart
+{
+	background-color: #ff9500;
+	color:white;
+}
+
+.bluePart
+{
+	background-color: #007aff;
+	color:white;
+}
+
+.blue1Part
+{
+	background-color: #34aadc;
+	color:white;
+}
+
+.whitePart
+{
+	background-color: #eee;
+	color: black;
+}
+
+.grayPart{
+	background-color: #8e8e93;;
+	color:white;
+}
+
+.redPart
+{
+	background-color: #ff3b30;
+	color:white;
+}
+
+.web
+{
+	overflow: hidden;
+}
+
+
+
+
+
